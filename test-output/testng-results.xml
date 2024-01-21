@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="11" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-21T10:39:17 EDT" name="addEmpWShane Suite" finished-at="2023-10-21T10:40:38 EDT" duration-ms="81530">
+    <groups>
+      <group name="regression">
+        <method signature="AddEmployeeWShane.addEmployeeRe(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.neotech.testcases.AddEmployeeWShane@49c6c24f]" name="addEmployeeRe" class="com.neotech.testcases.AddEmployeeWShane"/>
+      </group> <!-- regression -->
+      <group name="addEmployeeRe">
+        <method signature="AddEmployeeWShane.addEmployeeRe(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.neotech.testcases.AddEmployeeWShane@49c6c24f]" name="addEmployeeRe" class="com.neotech.testcases.AddEmployeeWShane"/>
+      </group> <!-- addEmployeeRe -->
+    </groups>
+    <test started-at="2023-10-21T10:39:17 EDT" name="addEmpWShane Test" finished-at="2023-10-21T10:40:38 EDT" duration-ms="81530">
+      <class name="com.neotech.testcases.AddEmployeeTest">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.neotech.testcases.AddEmployeeTest@2fc6f97f]" started-at="2023-10-21T10:39:17 EDT" name="generateReport" finished-at="2023-10-21T10:39:17 EDT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method is-config="true" signature="writeReport()[pri:0, instance:com.neotech.testcases.AddEmployeeTest@2fc6f97f]" started-at="2023-10-21T10:40:38 EDT" name="writeReport" finished-at="2023-10-21T10:40:38 EDT" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReport -->
+      </class> <!-- com.neotech.testcases.AddEmployeeTest -->
+      <class name="com.neotech.testcases.AddEmployeeWShane">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neotech.testcases.AddEmployeeWShane@49c6c24f]" started-at="2023-10-21T10:39:17 EDT" name="setUp" finished-at="2023-10-21T10:39:19 EDT" duration-ms="2131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addEmployeeRe(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.neotech.testcases.AddEmployeeWShane@49c6c24f]" started-at="2023-10-21T10:39:19 EDT" name="addEmployeeRe" data-provider="excelData" finished-at="2023-10-21T10:39:44 EDT" duration-ms="24435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ede]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Haza]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ehazard1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TreAlexa@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeeRe -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neotech.testcases.AddEmployeeWShane@49c6c24f]" started-at="2023-10-21T10:39:44 EDT" name="tearDown" finished-at="2023-10-21T10:39:44 EDT" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neotech.testcases.AddEmployeeWShane@49c6c24f]" started-at="2023-10-21T10:39:44 EDT" name="setUp" finished-at="2023-10-21T10:39:46 EDT" duration-ms="1557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addEmployeeRe(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.neotech.testcases.AddEmployeeWShane@49c6c24f]" started-at="2023-10-21T10:39:46 EDT" name="addEmployeeRe" data-provider="excelData" finished-at="2023-10-21T10:40:11 EDT" duration-ms="25423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohamad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Salahh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Zahawilly2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CoGa@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeeRe -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neotech.testcases.AddEmployeeWShane@49c6c24f]" started-at="2023-10-21T10:40:11 EDT" name="tearDown" finished-at="2023-10-21T10:40:11 EDT" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neotech.testcases.AddEmployeeWShane@49c6c24f]" started-at="2023-10-21T10:40:11 EDT" name="setUp" finished-at="2023-10-21T10:40:13 EDT" duration-ms="1601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addEmployeeRe(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.neotech.testcases.AddEmployeeWShane@49c6c24f]" started-at="2023-10-21T10:40:13 EDT" name="addEmployeeRe" data-provider="excelData" finished-at="2023-10-21T10:40:38 EDT" duration-ms="24569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sadioo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[KimichJ3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MoSa@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeeRe -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neotech.testcases.AddEmployeeWShane@49c6c24f]" started-at="2023-10-21T10:40:38 EDT" name="tearDown" finished-at="2023-10-21T10:40:38 EDT" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.neotech.testcases.AddEmployeeWShane -->
+    </test> <!-- addEmpWShane Test -->
+  </suite> <!-- addEmpWShane Suite -->
+</testng-results>

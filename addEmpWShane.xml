@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="addEmpWShane Suite">
+
+	<listeners>
+		<listener class-name="com.neotech.testbase.Listener"></listener>
+	</listeners>
+
+	<test thread-count="5" name="addEmpWShane Test">
+
+		<groups>
+			<run>
+				<include name="addEmployeeRe"></include>
+			</run>
+		</groups>
+
+		<packages>
+			<package name="com.neotech.testcases" />
+			
+		</packages>
+
+	</test> <!--
+	addEmpWShane Test -->
+</suite> <!--
+addEmpWShane Suite -->
